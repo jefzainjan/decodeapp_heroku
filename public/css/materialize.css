@@ -3,6 +3,26 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+  .ilike-blue-container {
+    @extend .blue, .lighten-4;
+  }
+
+  body {
+
+background:url(../img/vintage.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment: fixed;
+background-position: center center;
+
+}
+
+.container{
+  margin: 0px;
+  padding: 0px;
+  width: : 50px;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
