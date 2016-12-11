@@ -2,298 +2,334 @@
 
 class App{
   constructor(){
-    this.car = [
-
-  {
+    this.teams = [
+      {
         "id": 1,
-        "name": "Ford Explorer",
-        "details": "Explorer Platinum grabs attention with a distinctive grille with satin-chrome finish, dual integrated chrome exhaust tips and 20-inch bright-machined wheels with dark-painted Pockets. The interior is just as impressive with the standard dual-panel moonroof, unique Nirvana leather with micro-perforation and quilted inserts. SYNC® 3 is our easy-to-use, responsive voice-activated technology. Discover the system’s quick reactions to your conversational voice commands. Experience the smartphone-like touchscreen with impressive responsiveness. The available 2.3L EcoBoost® engine produces 280 hp68 and provides 310 lb.-ft. of torque.68 It has a twin-scroll low-inertia turbocharger that separates the exhaust pulses from pairs of cylinders, enabling quicker turbine spin-up, enhanced acceleration responsiveness and efficiency. <br> Manual, Diesel, ₱ 1,339,000</br>",
-        "image": "img/Ford.jpg",
+        "coach": "Coach kokoy",
+        "team": "Falcons",                
+         "division": "west",           
+        "photo": "img/4.jpg"
       
+        
       },
+
+
       {
         "id": 2,
-        "name": "BMW Gran-Turismo 335i",
-        "details": "The distinct, aggressive look is clear from every angle. Its coupe-inspired aerodynamic design is complemented by Air Breathers and an active rear spoiler that reduces lift on the rear axle by 35 percent. Featuring a fully electric slide and lift control, it also includes a wind deflector to keep the wind out and an electric sunshade to keep the cabin cool on even the hottest days. Trunk capacity is 24.6 cubic feet, transforming to 56.5 cubic feet when the rear seat is folded down. A power tailgate is standard while the Comfort Access Function, included in the 340i, opens and closes the tailgate with a wave of your foot under the bumper. The 3 Series Gran Turismo’s versatile 8-speed Sport transmission makes for a smooth ride at any speed. 330i: BMW's mighty inline 4-cylinder TwinPower Turbo. Displacing just 2.0 liters, this 248-hp marvel generates 258 lb-ft of torque at just 1450 rpm, for potent thrust that kicks in right from the start and continues all the way up to 4800 rpm. <br>Manual, Gasoline, PRICE ON REQUEST</br>  ",
-        "image": "img/bmw.jpg",
-       
+        "coach": "Coach Jan",
+        "team": "Tigers",                
+         "division": "west",           
+        "photo": "img/6.jpg"
+        
+      
+        
       },
+
+
       {
+
         "id": 3,
-        "name": "Chevrolet Trailblazer",
-        "details": "The New 2017 Chevrolet Trailblazer boasts of an improved interior and exterior and reduced cabin and engine noise The New 2017 Chevrolet Trailblazer comes with advanced safety features including Lane Departure Warning, Forward Collision Alert and Side Blind Zone Alert. Fitted with the Chevrolet’s latest MyLink Infotainment System with multiple smartphone OS compatibility and Siri Eyes Free. Available in three variants: 2.8L Z71 AT, 2.8L LT AT, 2.5L LT MT<br>Automatic Diesel ₱ 1,509,888</br>",
-        "image": "img/Chevy.jpg",
+        "coach": "Coach Clark",
+        "team": "Lions",                
+         "division": "west",           
+        "photo": "img/1.jpg"
+        
+      
       },
+
+
       {
         "id": 4,
-        "name": "FOTON View Traveller",
-        "details": "The Traveller is a van. A very modern, very large van, but still a van. Like many Chinese vans, it shares a lot of similarities with the Toyota HiAce, styling-wise. While the bubble roof grants it bus-like interior space, it does give it a rather odd appearance, even compared to the tall-roofed HiAces plying our streets. The 2.8-liter Cummins turbodiesel makes just 130hp, but short gearing and an aggressive boost profile make it very lively. There's more than enough oomph to overtake, and while the claimed top speed is a paltry 145kph, that's more due to the van's brick-like aerodynamics than a lack of power. With a 2.3-ton curb weight, a tall driving position and long-geared steering, piloting the View is much like driving a bus.<br>Manual Diesel ₱ 1,299,000</br> ",
-        "image": "img/Foton.jpg",
-       
-      },
+        "coach": "Coach CJ",
+        "team": "ComeBAcks",                
+         "division": "west",           
+        "photo": "img/2.jpg"
+        
+        
+      }, 
+
+
       {
         "id": 5,
-        "name": "Honda City",
-        "details": "The 1.5-liter i-Vtec of The All-New Honda City can make short work of any urban challenge. Variable valve timing and lift electronic control technology optimizes engine response based on the driver’s instantaneous demands, thus providing spirited dynamics while maintaining fuel economy. <br>CVT, Gasoline, ₱ 804,000<br>",
-        "image": "img/Honda.jpg",
-      },
-      {
+        "coach": "Coach popol",
+        "team": "LEGENDS",                
+         "division": "west",           
+        "photo": "img/5.jpg"
 
-        "id": 6,
-        "name": "Hyundai Santa Fe",
-        "details": "Santa Fe provides an ideal 360 degree camera view via clear display with visual information including the blind spot all around the vehicle in diverse roads and driving conditions. Along with 8 color TFT smart navigation system for diverse driving information and multi-media, discover true-to-life sounds of radio, CD or MP3 files with the premium system that comes in standard or alternative options with 6 speakers. Santa Fe is equipped with front side airbags, driver and passenger airbags as well as front and rear curtain airbags to minimize passenger injuries in the event of collisions. <br>Manual, Diesel, ₱ 1,568,000</br>",
-        "image": "img/Hyundai.jpg",
       },
-      {
 
-        "id": 7,
-        "name": "Isuzu D-Max",
-        "details":"The new D-Max has a notable rear bed size at 1,485 mm x 1,530 mm x 465 mm, which can carry a multitude of large and heavy items. It can also be optioned with an array of accessories like bed covers, camper shells, and more. it has automatic climate control and a 7-inch LCD multimedia head unit with DVD/WMA/MP3 compatibility and Bluetooth/iPod connectivity for the comfort and entertainment of everyone inside. Inside its bonnet is a reliable 3.0L 4JJI-TC (HI) diesel power plant with VGS turbocharger and intercooler, coupled to either a 5-speed manual transmission or a 5-Speed automatic transmission with sequential shift. Performance output reaches 163 hp and 380 Nm of torque – both available in 4x2 and 4x4 variants.<br>Manual, Diesel, ₱ 1,190,000</br>",
-        "image": "img/Izuzu.jpg",
-      },
        {
 
-        "id": 8,
-        "name": "Jeep Grand Cherokee",
-        "details": "The Jeep Grand Cherokee is a luxury vehicle in addition to being a solid highway cruiser and a capable off-road machine.The current-generation Grand Cherokee was introduced for the 2011 model year. For 2016, Jeep Grand Cherokee is available in a new High Altitude edition based on the top Overland trim.Electric power steering is new for 2016, and the 2016 Grand Cherokee SRT gets a revised instrument cluster. The powertrain lineup ranges from a fuel-efficient EcoDiesel V6 to gasoline V6 and V8 engines, topped by the outlandishly quick Grand Cherokee SRT. Three engines are available for the Grand Cherokee, four if the SRT is counted.Base models use a 3.6-liter V6, which makes 295 horsepower and is fitted with fuel-saving engine stop-start technology.The 5.7-liter Hemi V8 generates 360 horsepower.The most fuel-efficient option is the EcoDiesel 3.0-liter V6, producing 420 pound-feet of torque.Estimated at 30 mpg on the highway, it stretches range per tankful to 730 miles. Jeep also offers a fourth powertrain, in the performance-focused SRT, whose 6.4-liter Hemi V8 now whips up 475 horsepower.All that energy reaches all four wheels, whereas other Grand Cherokees can have either rear-wheel drive or four-wheel drive.<br>Automatic, Gasoline, ₱ 3,860,000</br>",
-        "image": "img/Jeep.jpg",
-      },
-       
+
+       "id": 6,
+        "coach": "Jan",
+        "team": "Champs",                
+         "division": "west",           
+        "photo": "img/7.jpg"
+        
+        
+      }, 
+
+
     ];
+    
+	}
+
+	render(html, component){
+
+		component.innerHTML += html;
+	}
+
+	reRender(html, component){
+
+		component.innerHTML = html;
+	}
+
+  showLandingPage(){
+    $('#teamLayout').show();
+    $('#teamRecent').hide();
+     $('#createTeam').hide();
+     $('#updateTeamNow').hide();
+    
+  }
+}
+
+
+class Component extends App{
+	constructor(){
+		super();
+	}
+	teamLayout(){
+		let html = `
+
+
+
+     <div id="brandLayout" class="container #607d8b blue-grey">
+       <nav>
+    <div class="nav-wrapper #ffc107 amber">
+     <a href="#" onclick="component.showLandingPage()" class="brand-logo center">&nbsp;&nbsp;HoOpers</a>
+      <ul class="right hide-on-med-and-down">
+            
+              <li><a href="#" onclick="component.teamList()"><i class="material-icons left">assignment</i>Teams</a></li>
+              <li><a href="#" onclick="component.teamCreate()"><i class="material-icons left active">note_add</i>Create Team</a></li>
+            </ul>
+            <ul class="left hide-on-med-and-down">
+            <li><a href="#" onclick="component.teamLayout()"><i class="material-icons left">view_list</i>HOME</a></li>
+     </ul>
+    </div>
+
+    </br>
+<hr>
+  </br>
+  </br>
+   <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="img/2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="img/3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="img/7.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="img/6.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="img/4.jpg"></a>
+  </div>
+   </br>
+  </br>
+
+<hr>  
+      <h5 class="center-align black-text">HoOPERs!</h5>
+      <div class="row">
+
+  
+<div id="teamRecent"></div>
+        <div id="teamView"></div>
+        <div id="teamList"></div>
+        <div id="teamCreate"></div>
+              <div id="updateTeamNow"></div>
+
+
+
+
+
       
+<footer class="page-footer #ffb300 amber darken-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Team App</h5>
+                <p class="grey-text text-lighten-4">A Baskteball team App, this app can show you how many teams in the league and also you can put youe team here if you want and also you can update if there some problems. It is easy here so Enjoy and Make your TEAM NOW!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li>
+                    <a class="grey-text text-lighten-3" href="#" onclick="component.teamLayout()">
+                      <!-- <i class="material-icons left">dashboard</i> -->
+                      Home</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#" onclick="component.teamList()">
+                        <!-- <i class="material-icons left">assignment</i> -->
+                        Teams</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer-copyright #ffc107 amber">
+                    <div class="container">
+                      © 2016-2017 Copyright Text
+                      
+
+                    </div>
+                  </div>
+                </footer> 
+</div>
+             
+  `;
+
+    this.reRender(`
+      ${html}
+
+      `,document.getElementById("app"));
+      
+  }
+
+
+   
+  teamView(id){
+    let r = this.findTeamByID(id);
+
+    let html = `
+
+      <h5 class="center-align black-text text-darken-2">${r.coach}</h5>
+      <div class="row">       
+        <div class="col s12 m12">
+          <div class="card horizontal small">
+          
+            <div class="card-image">
+              <img src="${r.photo}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content #6d4c41 brown darken-1">
+              <span class="black-text text-darken-2">
+                <p>Coach: ${r.coach}</p>
+                <p> Team:${r.team}</p>
+               <p> Division: ${r.division}</p></span>
+              </div>
+              <div class="card-action small">    
+         
+                    <a onclick="component.updateTeamNow(${r.id})" class="waves-effect waves-light btn">Update</a>
+                <a onclick="component.deleteTeam(${r.id})" class="waves-effect waves-light btn">DELETE</a>
+                <a onclick="component.teamList()" class="waves-effect waves-light btn">BACK TO Team LIST</a>
+
+              </div>
+            </div>          
+          </div>        
+        </div>      
+      </div>
+
+      
+
+    `;
+
+    
+
+    html += `
+          </ul>
+        </div>      
+      </div>
+    `;
+
+    this.reRender(`   
+      ${html}     
+      `,document.getElementById("teamView"));
+    $('#teamView').show();
+    $('#teamRecent').hide();
+    $('#teamList').hide();
+    $('#teamCreate').hide();
+     $('#updateTeamNow').hide();
+  }
+
   
+
+updateTeam(id){
+
+  id = id+1;
+  let teamdummy = {
+    "id" :  id,
+    "coach" : $('#coach_1').val(),
+    "team" : $('#Team_1').val(),
+    "division" : $('#Division_1').val(),
+    "photo" : $('#photo_1').val()
   }
 
-  render(html, component){
-
-    component.innerHTML += html;
+  let r = this.teams;
+  for(let i=0;i<r.length;i++){
+    if(r[i].id == id){
+      r[i] = teamdummy;
+      break;
+    }
   }
 
-  reRender(html, component){
+  this.teamList();
+}
 
-    component.innerHTML = html;
+  teamSearch(){
+    let m = this.teams;
+    let value = $('#search1').val();
+    let html = `
+      <ul class="collection">
+    `;    
+    for(let i=0;i<m.length;i++){
+      let expr1 = (m[i].style.toUpperCase().indexOf > -1);
+      if(expr1){
+        html += `       
+            
+         <li class="collection-item avatar">
+            <i class="material-icons circle red">play_arrow</i>
+            <span class="title">${this.teams[i].team}</span>
+            <p>
+              ${this.teams[i].division}
+            </p>
+            <a onclick="component.updateTeam(${this.teams[i].id})" href="#!" class="secondary-content"><i class="material-icons">mode_edit</i></a>
+          </li>       
+
+        `;  
+      }     
+    }
+
+    html += `
+      </ul>
+    `;
+
+  this.reRender(html,document.getElementById("searchPageTeamList"));
   }
 
-carDesign1(){
-    
-    
-    let name = document.getElementById('car2');
-    let details = document.getElementById('car3');
-    let image = document.getElementById('car5');
-  
 
-    let car = {      
-    
-      "name": name.value,
-      "details": details.value,
-      "image": image.value,
-      };
 
-    name.value = details.value = image.value = '';
-    this.car.push(car);
-
-    
-    
-  } 
-
-  carDelete(key){
-    let r = this.car;
+   deleteTeam(key){
+    let r = this.teams;
     for(let i=0;i<r.length;i++){
       if(r[i].id == key){
-        this.car.splice(i,1);
+        this.teams.splice(i,1);
         break;
       }
     }   
-    this.carList();
+    this.teamList();
   }
 
-  updateCar(id){
-
-    let qwe = {
-      "id" :  id,
-      "name" : $('#asd').val(),
-      "description" : $('#zxc').val()
-    }
-
-    let r = this.car;
-    for(let i=0;i<r.length;i++){
-      if(r[i].id == id){
-        r[i] = qwe;
-        break;
-      }
-    }
-
-    this.carList();
-
-}
-  SearchCarById(id){
-    let r = this.car;
+findTeamByID(id){
+    let r = this.teams;
     for(let i=0;i<r.length;i++){
       if(id==r[i].id){
         return r[i];
       }
     }
   } 
-
- 
-
-  SearchCar(name){
-    let objects = [];
-    let r = this.car;
-    for(let i=0;i<r.length;i++){
-      let expr = (r[i].name.toUpperCase().indexOf(name.toUpperCase()) > -1);
-      if(expr){
-        objects.push(r[i]);
-      }
-    }
-    return objects;
-  }
-}
-
-
-class Component extends App{
-  constructor(){
-    
-    super();
-  }
-
-carDesignLayout(){
-  let html = `
-
-<ul id="dropdown1" class="dropdown-content #827717 lime darken-4">
-  <li><a href="#" onclick="component.latestCar()">Sell</li>
-</ul>
-<nav>
-  <div class="nav-wrapper #827717 lime darken-4">
-  <img src="img/ccc.png" width="50px">
-    <a href="#!" onclick="component.Home()" class="brand-logo">CariTown</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="#" onclick="component.Home()">Home</a></li>
-      <li><a href="#" onclick="component.carList()">Find your Car</a></li>
-      
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Sell<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
-  </div>
-</nav>
-
-<div class="slider" >
-    <ul class="slides">
-      <li>
-        <img src="img/1.jpg"> <!-- random image -->
-        <div class="caption center-align">
-        <h5>CariTown! Make your choice.</h5>
-          <h3>Buy and sell cars!</h3>   
-        </div>
-      </li>
-      <li>
-        <img src="img/3.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Limited Editions</h3>
-        </div>
-      </li>
-      <li>
-        <img src="img/2.jpg"> <!-- random image -->
-        <div class="caption right-align">
-          <h5 class="light grey-text text-lighten-3">Makes you feel comfortable</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/4.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Best Seller of the month</h3>
-          
-        </div>
-      </li>
-    </ul>
-  </div>
-
-</div>
-
-
-         <div id="Home"></div>
-        <div id="carRecent"></div>
-        <div id="Car"></div>
-        <div id="carList"></div>
-        <div id="latestCar"></div>
-        
-  
-        <footer class="page-footer #9e9d24 lime darken-3">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 ">
-                <h2 class="white-text">CariTown</h2>
-                <p class="grey-text text-lighten-4">CariTown can easily sell your car in just a simple click.</p>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright #827717 lime darken-4">
-            <div class="container">
-            <img src="img/ccc.png" width="50px">
-            © 2016 Copyright Text/CariTown
-            </div>
-          </div>
-        </footer>
-            
-
-
-`;
-
-    this.reRender(`
-      ${html}
-
-      `,document.getElementById("app"));
-    this.carRecent();    
-  }
-
-Car(id){
-    let r = this.SearchCarById(id);
-
+  teamList(){
     let html = `
-
-    <div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="${r.image}">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>${r.details}</p>
-        </div>
-        <div class="card-action">
-          <span onclick="component.carDelete(${r.id})" class="new badge small" data-badge-caption="">Remove</span>
-               <span onclick="component.carList()" class="new badge small" data-badge-caption="">Back</span>
-               <span onclick="component.updateCar()" class="new badge small" data-badge-caption="">Update</span>
-        </div>
-      </div>
-    </div>
-  </div>
-            
-
-    `;
-
-    this.reRender(`   
-      ${html}     
-      `,document.getElementById("Car"));
-    $('#Car').show();
-    $('#carRecent').hide();
-    $('#carList').hide();
-    $('#latestCar').hide();
-    $('#buyList').show();
-    $('#Home').hide();
-  }
-
-
-  carList(){
-    let html = `
-
-
-      <br/>
+     
+     <br/>
         <nav>
-          <div class="nav-wrapper #9e9d24 lime darken-3">
+          <div class="nav-wrapper re#ffb300 amber darken-1d">
           <form>
             <div class="input-field">       
-              <input onkeyup="component.carItems(this.value)" id="search" type="search" placeholder="Search" required>
+              <input onkeyup="component.teamListItems(this.value)" id="search" type="search" placeholder="Search" required>
               <label for="search"><i class="material-icons">search</i></label>
               <i class="material-icons">close</i>
             </div>
@@ -305,26 +341,35 @@ Car(id){
     `;
 
     html += `
-      <div class="row" id="carItems">
+      <div class="row" id="teamListItems">
     `;
-
-    let r = this.car;
+    let r = this.teams;
     for(let i=0;i<r.length;i++){
       html+= `
-      <div class="col s12 m4">
-          <div class="card small hoverable">
+
+
+
+        
+<div class="col s12 m4">
+          <div class="card small hoverable ">
             <div class="card-image">
-              <img src="${r[i].image}">
-              <span class="card-title">${r[i].name}</span>
+              <img src="${r[i].photo}">
+             
             </div>
-            <div class="card-content">
-              <p>${r[i].details}</p>
+            <div class="card-content #c5e1a5 light-green lighten-3">
+               <span class="black-text text-darken-2 center html">
+              <p>${r[i].coach}</p>
+               <p>${r[i].team}</p>
+             
+                <p>${r[i].division}</p></span>
+               
             </div>
-            <div class="card-action">
-              <a href="#" onclick="component.Car(${r[i].id})">Details</a>
+            <div class="card-action #8bc34a light-green" >
+              <a href="#" onclick="component.teamView(${r[i].id})">Details</a>
             </div>
           </div>
         </div>
+
       `;
     }
 
@@ -332,187 +377,197 @@ Car(id){
 
     this.reRender(`
       ${html}
-      `,document.getElementById("carList"));
-    $('#carList').show();
-    $('#Car').hide();
-    $('#carRecent').hide();
-    $('#latestCar').hide();  
-    $('#buyList').show();  
-    $('#Home').hide();
+      `,document.getElementById("teamList"));
+    $('#teamList').show();
+    $('#teamView').hide();
+    $('#teamRecent').hide();
+    $('#teamCreate').hide(); 
+     $('#updateTeamNow').hide();   
   }
-
-carItems(name){
+teamListItems(coach){
     let html = ``;
-    let r = this.SearchCar(name);
+    let r = this.findTeamByCoach(coach);
     for(let i=0;i<r.length;i++){
       html+= `
-        <div class="col s12 m4">
-          <div class="card small hoverable">
-            <div class="card-image">
-              <img src="${r[i].image}">
-              <span class="card-title">${r[i].name}</span>
-            </div>
-            <div class="card-content">
-              <p>${r[i].details}</p>
-            </div>
-            <div class="card-action">
-              <a href="#" onclick="component.Car(${r[i].id})">More</a>
-            </div>
-          </div>
+        
+   <div class="col s12 m">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal ">
+      <div class="card-image">
+        <img src="${r[i].photo}">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content #c5e1a5 light-green lighten-3">
+          <span class="black-text text-darken-2 center">
+              <p>${r[i].coach}</p>
+               <p>${r[i].team}</p>
+               <p>${r[i].division}</p></span>
         </div>
+        <div class="card-action #8bc34a light-green" >
+          <a href="#" onclick="component.teamView(${r[i].id})">Details</a>
+      </div>
+    </div>
+    </div>
+            
+
+       
+
       `;
     }   
-
     this.reRender(`
       ${html}
-      `,document.getElementById("carItems"));
-    $('#carList').show();
-    $('#Car').hide();
-    $('#carRecent').hide();  
-    $('#latestCar').hide();
-    $('#buyList').show();
-    $('#Home').hide();    
+      `,document.getElementById("teamListItems"));
+    $('#teamList').show();
+    $('#teamView').hide();
+    $('#teamRecent').hide();  
+    $('#teamCreate').hide();
+     $('#updateTeamNow').hide();
   }
-
-  updateExFeeling(id){
-    
-    let html = `
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="asd" type="text" class="validate" value="${this.car[id].name}">          
-        </div>
-        <div class="input-field col s6">
-          <input id="zxc" type="text" class="validate" value="${this.car[id].details}">
-        </div>
-      </div>
-      <span onclick="component.buyList()" class="new badge small" data-badge-caption="">Update</span>
-      <hr/>
-    `;  
-    this.reRender(`
-      ${html}
-      `,document.getElementById("carItems"));
-    $('#carList').show();
-    $('#Car').hide();
-    $('#carRecent').hide();  
-    $('#latestCar').hide();
-    $('#buyList').show();
-    $('#Home').hide();    
-  }
-
-  carRecent(){
-    
-    let html = `
-
-
-
-      <div class="row">
-    `;
-
-    let r = this.car;
-    let count = 0;
-    for(let i=(r.length-1);i>=0;i--){
-      if(count++ === 6)break;
-      html+= `
-     <div class="col s12 m4">
-          <div class="card small hoverable">
-            <div class="card-image">
-              <img src="${r[i].image}">
-              <span class="card-title">${r[i].name}</span>
-            </div>
-            <div class="card-content">
-              <p>${r[i].details}</p>
-            </div>
-            <div class="card-action">
-              <a href="#" onclick="component.Car(${r[i].id})">Details</a>
-            </div>
-          </div>
-        </div>
-
-      `;
+  
+   findTeamByCoach(coach){
+    let objects = [];
+    let r = this.teams;
+    for(let i=0;i<r.length;i++){
+      let expr = (r[i].coach.toUpperCase().indexOf(coach.toUpperCase()) > -1);
+      // console.log(name," vs ",r[i].name," = ",expr);
+      if(expr){
+        objects.push(r[i]);
+      }
     }
-
-    html += `</div>`;
-
-    this.render(`   
-      ${html}
-      `,document.getElementById("carRecent"));
+    return objects;
   }
 
-  latestCar(){
+  teamCreate(){
     let html = `
+        
 
-   
-     
-          
+
        <div class="row">
 
             <div class="input-field col s6 ">
-            <h3>Your Car</h3>
-              <input disabled value="${this.car.length+1}" id="car" type="text"class=" validate" >
+            <h3>Your Team</h3>
+              <input disabled value="${this.teams.length+1}" id="car" type="text"class=" validate" >
             </div>
               <div class="row">
           <div class="input-field col s6 ">
-              <input id="car2" type="text" class=" vintage">
-              <label for="car2">Brand Name</label>
+              <input id="team_coach" type="text" class=" vintage">
+              <label for="team_coach">Name Of Coach</label>
             </div>
           </div>
           
           <div class="row">
             <div class="input-field col s6 ">
-              <input id="car3" type="text" class="vintage">
-             <label for="car3">Car Details</label>
+              <input id="team_team" type="text" class="vintage">
+             <label for="team_team">Name Of Team</label>
+            </div>
+
+             <div class="row">
+            <div class="input-field col s6 ">
+              <input id="team_division" type="text" class="vintage">
+             <label for="team_division">Division</label>
             </div>
 
             <div class="row">
             <div class="input-field col s6 ">
-              <input id="car5" type="text" class="vintage">
-              <label for="car5">Enter Link Address Picture</label>
+              <input id="team_photo" type="text" class="vintage">
+              <label for="team_photo">Team Logo</label>
             </div>
        
         <div align="left">
        
-       <button onclick="component.carList()" class="btn #ffa726 orange lighten-1">Back</button>
-       <button onclick="component.carDesign1()" class="btn #ffa726 orange lighten-1">Sell</button> 
+       <button onclick="component.teamList()" class="btn #ffa726 orange lighten-1">Back</button>
+       <button onclick="component.createTeam()" class="btn #ffa726 orange lighten-1">Create</button> 
          </div>
-        
-      
+       
 
+
+                
     `;
 
     this.reRender(`
       ${html}
-      `,document.getElementById("latestCar"));
-    $('#latestCar').show();
-    $('#carList').hide();
-    $('#Car').hide();
-    $('#carRecent').hide(); 
-    $('#buyList').show();
-    $('#Home').hide();    
+      `,document.getElementById("teamCreate"));
+    $('#teamCreate').show();
+    $('#teamList').hide();
+    $('#teamView').hide();
+    $('#teamRecent').hide();
+      $('#updateTeamNow').hide();
+    
   }
 
-  // buyList(){
 
-  // }
-     
+   createTeam(){
+    let id = document.getElementById('team_id');
+    let coach = document.getElementById('team_coach');
+    let team = document.getElementById('team_team'); 
+    let division = document.getElementById('team_division');
+    let photo = document.getElementById('team_photo');
 
-  Home(){
-  let html=`
+    let teamss = {      
+      "id": id.value,
+      "coach": coach.value,
+       "team": team.value,
+      "division": division.value,
+      "photo": photo.value,
+      
+ 
+    
+    };
 
 
+    this.teams.push(teamss);
 
-  `;
-   this.reRender(`
+    
+    id.value = coach.value = team.value = division.value  = photo.value =''; 
+  } 
+
+  
+    updateTeamNow(id){
+
+    id = id - 1;
+    let html = `
+    
+<center>
+    <div class="form-style-3 #e3f2fd blue lighten-5">
+    <div class="row">
+    <fieldset>
+    <center><h1>Update Your Team</h1></center>
+    <center><span>Update Coach</span><input type="email" id="coach_1"value="${this.teams[id].coach}"/> </label></center>
+    <center><span>Update Team</span><input type="email" id="Team_1"value="${this.teams[id].team}"/> </label></center>
+    <center><span>Update Division</span><input type="email" id="Division_1"value="${this.teams[id].division}"/> </label></center>
+  <center> <span>Update Photo</span><input type="email" id="photo_1"value="${this.teams[id].photo} "/> </label></center>
+ 
+
+    <div class="center-align">
+    <button onclick="component.teamList()" class="btn waves-effect waves-light">Back</button>
+    <a onclick="component.updateTeam(${id})" class="waves-effect blue waves-light btn">Update</a>
+    </div>
+    </div>
+</fieldset>
+
+    </div>
+    </center>
+
+    `;  
+    this.reRender(`
+
       ${html}
-      `,document.getElementById("latestCar"));
-    $('#latestCar').hide();
-    $('#carList').hide();
-    $('#Car').hide();
-    $('#carRecent').show(); 
-    $('#buyList').show(); 
-    $('#Home').hide();  
+
+      `,document.getElementById("updateTeamNow"));   
+ $('#teamCreate').hide();
+    $('#teamList').hide();
+    $('#teamView').hide();
+    $('#teamRecent').hide();
+      $('#updateTeamNow').show();
+  
+    
+    
+  }
+  
+
 
 }
 
-} 
+
 let component = new Component();
-component.carDesignLayout();
+component.teamLayout();

@@ -261,6 +261,7 @@ jQuery.extend = jQuery.fn.extend = function() {
 	return target;
 };
 
+
 jQuery.extend( {
 
 	// Unique for each copy of jQuery on the page
