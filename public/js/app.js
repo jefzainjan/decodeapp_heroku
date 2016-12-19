@@ -104,9 +104,9 @@ class Component extends App{
 
 
 
-     <div id="brandLayout" class="container #607d8b blue-grey">
+     <div id="brandLayout" class="container #bf360c deep-orange darken-4 ">
        <nav>
-    <div class="nav-wrapper #ffc107 amber">
+    <div class="nav-wrapper #bf360c deep-orange darken-4">
      <a href="#" onclick="component.showLandingPage()" class="brand-logo center">&nbsp;&nbsp;HoOpers</a>
       <ul class="right hide-on-med-and-down">
             
@@ -149,7 +149,7 @@ class Component extends App{
 
 
       
-<footer class="page-footer #ffb300 amber darken-1">
+<footer class="page-footer #d84315 deep-orange darken-3">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -170,7 +170,7 @@ class Component extends App{
                       </div>
                     </div>
                   </div>
-                  <div class="footer-copyright #ffc107 amber">
+                  <div class="footer-copyright #bf360c deep-orange darken-4">
                     <div class="container">
                       © 2016-2017 Copyright Text
                       
@@ -205,7 +205,7 @@ class Component extends App{
               <img src="${r.photo}">
             </div>
             <div class="card-stacked">
-              <div class="card-content #6d4c41 brown darken-1">
+              <div class="card-content #bf360c deep-orange darken-4">
               <span class="black-text text-darken-2">
                 <p>Coach: ${r.coach}</p>
                 <p> Team:${r.team}</p>
@@ -326,7 +326,7 @@ findTeamByID(id){
      
      <br/>
         <nav>
-          <div class="nav-wrapper re#ffb300 amber darken-1d">
+          <div class="nav-wrapper #bf360c deep-orange darken-4">
           <form>
             <div class="input-field">       
               <input onkeyup="component.teamListItems(this.value)" id="search" type="search" placeholder="Search" required>
@@ -356,7 +356,7 @@ findTeamByID(id){
               <img src="${r[i].photo}">
              
             </div>
-            <div class="card-content #c5e1a5 light-green lighten-3">
+            <div class="card-content #bf360c deep-orange darken-4">
                <span class="black-text text-darken-2 center html">
               <p>${r[i].coach}</p>
                <p>${r[i].team}</p>
@@ -364,7 +364,7 @@ findTeamByID(id){
                 <p>${r[i].division}</p></span>
                
             </div>
-            <div class="card-action #8bc34a light-green" >
+            <div class="card-action #bf360c deep-orange darken-4" >
               <a href="#" onclick="component.teamView(${r[i].id})">Details</a>
             </div>
           </div>
@@ -397,13 +397,13 @@ teamListItems(coach){
         <img src="${r[i].photo}">
       </div>
       <div class="card-stacked">
-        <div class="card-content #c5e1a5 light-green lighten-3">
+        <div class="card-content #bf360c deep-orange darken-4">
           <span class="black-text text-darken-2 center">
               <p>${r[i].coach}</p>
                <p>${r[i].team}</p>
                <p>${r[i].division}</p></span>
         </div>
-        <div class="card-action #8bc34a light-green" >
+        <div class="card-action #bf360c deep-orange darken-4" >
           <a href="#" onclick="component.teamView(${r[i].id})">Details</a>
       </div>
     </div>
@@ -504,7 +504,7 @@ teamListItems(coach){
     let photo = document.getElementById('team_photo');
 
     let teamss = {      
-      "id": id.value,
+   
       "coach": coach.value,
        "team": team.value,
       "division": division.value,
@@ -518,7 +518,7 @@ teamListItems(coach){
     this.teams.push(teamss);
 
     
-    id.value = coach.value = team.value = division.value  = photo.value =''; 
+   coach.value = team.value = division.value  = photo.value =''; 
   } 
 
   
